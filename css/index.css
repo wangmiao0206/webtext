@@ -1,0 +1,179 @@
+body {
+    line-height: 1;
+    background: rgb(250, 250, 250);
+}
+
+img {
+    vertical-align: bottom;
+}
+a{
+    color: #fff;
+}
+.container {
+    width: 1202px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+/* 头部样式 */
+
+
+.logo {
+    width: 200px;
+    height: 120px;
+
+}
+.nav {
+    width: 1500px;
+    height: 60px;
+    border-top:1px solid;
+    margin: 0 auto;
+
+   }
+.zhuti{
+    position: relative;
+    right: 250px;
+}
+.nav>ul>li>a{
+    color: #000;
+    font:normal bolder 20px '微软雅黑';
+}
+.nav>ul>ul a{
+    color: #fff;
+}
+.nav>li{
+     margin:50px 15px;
+}
+.nav li {
+    width: 110px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px; 
+}
+
+.nav>ul ul {
+    background-color: #6495ED;
+    display: none;
+    
+}
+.nav>ul>li {
+    float: left;
+    position: relative;
+}
+
+.nav li:hover a{
+    color:#fff; 
+}
+.nav li:hover{
+     background-color: #6495ED;
+}
+.nav>ul>li:hover ul {
+    display: block;
+}
+.xun{
+    background-color: rgba(0,0,0,0.3);
+    margin: 0 auto;
+    width: 1000px;
+    height: 72px;
+    z-index: 110;
+    margin-top: 0px;
+    position: relative;
+    top: 326px;
+    left: 0px;
+    color: #fff;
+}
+.xun p{
+     font-size: 20px;
+    font-family: "Microsoft YaHei";
+}
+
+
+:focus {
+    outline: none;
+}
+
+/* banner样式 */
+
+
+
+.nei{
+    width: 1200px;
+    height: 1000px;
+    margin: 0 auto;
+}
+.mei{
+    width: 530px;
+    margin:30px 30px; 
+    height: 410px; 
+    
+}
+.mei li{
+    padding-bottom:15px;
+    padding-top: 15px;
+     border-bottom:dashed 1px #666; 
+}
+#te{
+    height: 50px;
+    background-color: rgba(128,128,128,0.5);
+}
+.te span{
+    font-size: 20px;
+    color: #000;
+}
+.nei h3{
+    display: block;
+    padding-bottom: 12px;
+    margin-bottom: 3px;
+    border-bottom: solid 4px red;
+}
+#xueshu li{
+    padding-bottom: 8px;
+    padding-top: 8px;
+
+}
+.nei h1{
+    padding-bottom: 12px;
+    border-bottom: solid 4px blue;
+    margin-bottom: 3px;
+}
+#huodong span{
+    font-size: 30px;
+    color: #666;
+}
+#huodong p{
+    font-size: 15px;
+}
+.ban{
+    height: 200px;
+    background-color: #0e6eb8;
+}
+.ban p{
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+}
+#xia{
+    position: relative;
+    right: 100px;
+}
+#guo{
+    float: left;
+    position: relative;
+    left: 450px;
+    top: 72px;
+}
+#blue{
+    float: right;
+    position: relative;
+    right: 500px;
+    top: 50px;
+    
+}
